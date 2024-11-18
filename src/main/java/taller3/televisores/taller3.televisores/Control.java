@@ -5,10 +5,10 @@ public class Control {
 	TV tv;
 	// estado
 	public void turnOn() {
-		tv.turnOn(true);
+		tv.turnOn();
 	}
 	public void turnOff() {
-		tv.turnOff(false);
+		tv.turnOff();
 	}
 	
 	// cambio de canal
