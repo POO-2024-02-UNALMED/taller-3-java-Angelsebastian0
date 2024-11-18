@@ -55,12 +55,12 @@ public class TV {
     
     //apagado y encendido
     
-    public void turnOn(boolean estado) {
+    public void turnOn() {
     	if(estado == true) {
-    		this.estado = true;
+    		
     	}
     }
-    public void turnOff(boolean estado) {
+    public void turnOff() {
     	if(estado == false) {
     		this.estado = false;
     	}
@@ -106,6 +106,13 @@ public class TV {
     	}
     	
     }
+	public static void setNumTV(int i) {
+		numTv = i;	
+	}
+	public static int getNumTV() {
+		return numTv;
+
+	}
     
     
     
