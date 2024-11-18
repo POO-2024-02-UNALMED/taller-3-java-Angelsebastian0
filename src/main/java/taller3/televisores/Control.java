@@ -1,5 +1,6 @@
 package taller3.televisores;
 
+
 public class Control {
 	TV tv;
 	// estado
@@ -44,6 +45,10 @@ public class Control {
 	public TV getTv() {
 		return tv;
 	}
+    public void setTv(TV tv2) {
+        
+    }
+	
 	
 	
 	

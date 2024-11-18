@@ -9,7 +9,7 @@ public class TV {
 	Control control;
 	static int numTv;
 	
-	TV(Marca marca, boolean estado ){//constructor marca, volumen 
+	public TV(Marca marca, boolean estado ){//constructor marca, volumen 
 		this.marca = marca;
 		this.estado = estado;
 	}
